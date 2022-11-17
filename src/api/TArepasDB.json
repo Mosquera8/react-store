@@ -1,0 +1,18 @@
+{
+    "products":[
+        {"id":1,"name":"Arepa Reina pepiada","description":"Arepa con queso,frojoles caraota,etc"},
+        {"id":2,"name":"Arepa simple","description":"Arepa "}
+    ],
+    "orders":[
+        {"id":1,"idCostumer":1,"idOrderDetails":1},
+        {"id":2,"idCostumer":1,"idOrderDetails":2}
+    ],
+    "ordersDetails":[
+        {"id":1,"idProduct":1,"quantity":3 },
+        {"id":2,"idProduct":1,"quantity":2 }
+    ],
+    "costumers":[
+        {"id":1 ,"email":"juan@gmail.com","password":"123"},
+        {"id":2 ,"email":"mosquera@gmail.com","password":"1234"}
+    ]
+}
